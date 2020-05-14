@@ -338,7 +338,7 @@
 	  		display: inline-block;
 	  		margin: 3px 2px;
 	  		transition: background ease 0.3s;
-	  		backdrop-filter: blur(10px);
+	  		backdrop-filter: Blur(10px);
 	  	}
 	  	.myakun:hover{
 	  		background: #000000E0;
@@ -512,7 +512,7 @@
 		  			mystart();
 		  		}
 		  		if(localStorage.getItem("blur")=="true"){
-		  			wpblur();
+		  			wpBlur();
 		  		}
 
 	  		}
@@ -691,8 +691,8 @@
 			function kembali(){
 				stopOpening();
 				localStorage.removeItem("checked");
-				if(blur=="false"){
-					wpblur();
+				if(Blur=="false"){
+					wpBlur();
 				}
 				$('#myform').hide();
 				$('#mywindow').fadeIn();
