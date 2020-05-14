@@ -868,14 +868,14 @@
 				tanggal=(dayName+', '+d.getDate()+' '+monthName);
 				$('.tanggal').text(tanggal);
 			}
-			function wpblur(){
+			function wpBlur(){
 				$('.container').toggleClass("myoverlay");
-				localStorage.setItem("blur", blur);
-				if(blur=="true"){
-					blur="false";
+				localStorage.setItem("Blur", Blur);
+				if(Blur=="true"){
+					Blur="false";
 				}
 				else{
-					blur="true";
+					Blur="true";
 				}
 			}
 			function playAudio() {
